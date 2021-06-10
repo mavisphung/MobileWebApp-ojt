@@ -1,0 +1,89 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-main {
+  background-color: #eeeeee;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.btn-main {
+  background-color: #5cb85c;
+}
+
+#please-sign-in {
+  line-height: 42px;
+}
+
+.border-radius-top {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.border-radius-bottom {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.line-height-38 {
+  line-height: 38px;
+}
+
+.btn-white {
+  background-color: white;
+  color: #000;
+}
+
+.card-header {
+  border-bottom: none;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.btn-sub {
+  background-color: #ffc107;
+}
+
+.item-code {
+  background-color: #ffc107;
+  color: #fff;
+  border-radius: 3px;
+  padding: 0px 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .be-right {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .be-right {
+    text-align: right;
+  }
+}
+
+.text-danger {
+    color: red;
+}

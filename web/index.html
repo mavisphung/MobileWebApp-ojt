@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/font-awesome.min.css">
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/site.css">
+        <title>Sign in - Web Assignment</title>
+    </head>
+    <body>
+        <header class="container-fluid bg-main">
+            <div class="container">
+                <h1 class="bg-main py-5 mb-3">Mobile Store</h1>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-4 offset-sm-4 border bg-main py-2 border-radius-top">
+                    <p class="m-0 text-bold">Please sign in</p>
+                </div>
+                <div class="col-12 col-sm-4 offset-sm-4 border px-3 border-radius-bottom">
+                    <form action="MainController" method="POST">
+                        <div class="form-group my-2">
+                            <input required autocomplete="off" type="text" placeholder="Username" class="form-control" name="txtUsername">
+                        </div>
+                        <div class="form-group">
+                            <input required autocomplete="off" type="password" placeholder="Password" class="form-control" name="txtPassword">
+                        </div>
+                        <button type="submit" class="btn btn-main w-100 my-2 text-white" 
+                                name="action" value="Sign in">
+                            Sign in
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <!-- Js-->
+        <script src="scripts/bootstrap.min.js"></script>
+        <script src="scripts/scripts.js"></script>
+    </body>
+</html>
